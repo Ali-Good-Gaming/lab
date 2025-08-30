@@ -1,0 +1,48 @@
+/* Стили для всей страницы */
+body {
+    background-color: #1a1a1a; /* Темный фон */
+    color: #ffffff; /* Белый текст */
+    font-family: 'Arial', sans-serif; /* Простой шрифт */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Меню будет по центру экрана */
+    margin: 0;
+}
+
+/* Контейнер для меню */
+.main-menu {
+    text-align: center;
+}
+
+/* Заголовок игры */
+h1 {
+    font-size: 4em; /* Большой размер шрифта */
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 8px #000; /* Тень для текста */
+}
+
+/* Стили для кнопок */
+button {
+    display: block; /* Каждая кнопка на новой строке */
+    width: 250px; /* Ширина кнопок */
+    padding: 15px;
+    margin: 15px auto; /* Отступы и центрирование */
+    font-size: 1.2em; /* Размер текста на кнопке */
+    color: white;
+    background-color: #4CAF50; /* Зеленый цвет фона */
+    border: none;
+    border-radius: 5px; /* Скругленные углы */
+    cursor: pointer; /* Указатель в виде руки при наведении */
+    transition: background-color 0.3s, transform 0.1s; /* Плавные переходы */
+}
+
+/* Эффект при наведении курсора на кнопку */
+button:hover {
+    background-color: #45a049; /* Чуть темнее при наведении */
+}
+
+/* Эффект при нажатии на кнопку */
+button:active {
+    transform: scale(0.98); /* Немного уменьшить при клике */
+}
